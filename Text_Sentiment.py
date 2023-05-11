@@ -27,7 +27,8 @@ print(padded[0:2])
 
 # Define the model using .h5 file
 
-model=tensorflow.keras.models.load_model('Text_Emotion.h5')
+# model=tensorflow.keras.models.load_model('Text_Emotion.h5')
+model = tensorflow.keras.models.load_model('Text_Emotion.h5', compile=False)
 
 
 # Test the model
